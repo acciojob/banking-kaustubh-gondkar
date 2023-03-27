@@ -41,6 +41,7 @@ public class BankAccount {
             }
            else{
                sb.append((char)('0'+sum));
+               sum =0;
            }
         }
         return sb.toString();
